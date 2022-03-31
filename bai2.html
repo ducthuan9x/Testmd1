@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=+prompt('nhập số a')
+    function kiemTra(a) {
+        let count=0;
+        let brr = []
+        for (i = 0; i < arr.length; i++) {
+            if (a == arr[i]) {
+                count++
+                brr.push(i)
+            }
+        }if(count==0){
+                return 'số nhập vào không có trong mảng';
+            }return 'số nhập vào có trong mảng ở vị trí: '+brr;
+        }
+    let arr=[1,2,3,4,5]
+    alert(kiemTra(a));
+</script>
+</body>
+</html>
